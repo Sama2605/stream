@@ -690,7 +690,7 @@
 // export default VideoBlob;
 import React, { useEffect, useRef, useCallback } from "react";
 
-const VideoBlob = () => {
+const VideoPlayer = () => {
   const videoRef = useRef(null);
   const mediaSourceRef = useRef(null);
   const sourceBufferRef = useRef(null);
@@ -768,7 +768,7 @@ const VideoBlob = () => {
   );
 };
 
-export default VideoBlob;
+export default VideoPlayer;
 
 
 // Random ints working///////////////////////////////////
